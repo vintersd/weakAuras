@@ -1,4 +1,6 @@
 * Tank Debuff Bars
+Show timer bars and source threat status for whitelisted debuffs on all tanks. Useful for tracking debuffs that require tanks to taunt at a specified number of stacks, or on debuff application.
+
 
 - [[init.lua][init.lua]]
   - Actions > On Init > Custom

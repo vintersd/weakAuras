@@ -1,0 +1,9 @@
+* Tank Debuff Casts
+Show cast bars on tanks other than the player. Useful for debuffs applied from spells with a cast time that require a taunt during the cast.
+
+- [[init.lua][init.lua]]
+  - Actions > On Init > Custom
+  
+- [[trigger.lua][trigger.lua]]
+  - Trigger > Trigger State Updater
+  - Check on: Event > =UNIT_SPELLCAST_START=
