@@ -15,9 +15,9 @@ function (allstates,event,...)
 
    -- Get player threat status
    local aggro = select(1,UnitDetailedThreatSituation("player",sourceId))
-   local makeBar = (aura_env.spells[spellId] and (not aggro)) or debug
+   local makeBar = (aura_env.spells[spellId] and (not aggro)) or aura_env.debug
 
-   if makeBar
+   if makeBar then
       -- update display information
       local spell,_,_,icon,startTime,endTime,_ = UnitCastingInfo(sourceId)
       local castTime = endTime - startTime
@@ -34,7 +34,7 @@ function (allstates,event,...)
       state.name = spellName
       PlaySoundFile(aura_env.sound)
 
-      if debug then
+      if aura_env.debug then
          local printstr = "Creating bar: %s casting %s on %s"
          print(string.format(printstr,sourceId,spellName,state.target))
       end
