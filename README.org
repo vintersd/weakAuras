@@ -1,0 +1,5 @@
+* weakAuras
+
+** Tank Debuffs
+*** [[auras/tank_debuffs/bars/][Debuff Bars]]
+*** [[auras/tank_debuffs/casts/][Debuff Casts]]
