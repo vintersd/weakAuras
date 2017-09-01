@@ -1,10 +1,10 @@
 * Tank Debuff Bars
 
-- [[init.lua][=init.lua]]
-  Actions > On Init > Custom
+- [[init.lua][=init.lua=]]
+  - Actions > On Init > Custom
   
-- [[trigger.lua][=trigger.lua]]
-  Trigger > Trigger State Updater
-  Check on: every frame
+- [[trigger.lua][=trigger.lua=]]
+  - Trigger > Trigger State Updater
+  - Check on: every frame
 
 
